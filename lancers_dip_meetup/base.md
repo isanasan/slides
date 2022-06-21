@@ -37,9 +37,17 @@ class: slides
 
 ![bg right:40%](https://user-images.githubusercontent.com/58712884/173713399-6a892196-1c13-4a44-b794-7fddd12bd431.jpg)
 
+# 三宅 勇魚
+
 - Lancersプロダクト開発部QAチーム
 - CakePHPのバージョンアップを担当
 - DevOpsに興味関心がある
+
+![width:50px](https://user-images.githubusercontent.com/58712884/174742561-aadf80cc-d24d-488e-bebd-f33a8aa88de3.png) @isanasan_
+
+![width:50px](https://user-images.githubusercontent.com/58712884/174749360-e1b1e941-8d14-4eeb-9ad9-610c12ff3176.png) @isanasan
+
+![width:50px](https://user-images.githubusercontent.com/58712884/174750050-566537de-fabe-4a04-8b47-c14fd6b2dcae.png) @isana
 
 ---
 
