@@ -136,6 +136,17 @@ _class: yojijukugo
 -->
 
 ---
+<style scoped>
+h1 {
+    font-size: 240px;
+    color: black;
+    top: 250px;
+}
+</style>
+
+# と言う訳で
+
+---
 
 # モチベーション
 
@@ -289,6 +300,7 @@ h1 {
 これを**Four Keys**と名付けた
 
 ---
+
 
 # 組織のパフォーマンスとは
 
