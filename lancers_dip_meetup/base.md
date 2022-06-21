@@ -85,7 +85,7 @@ h2 {
 }
 </style>
 
-## 時限爆弾のようなリリース
+## 爆弾処理のようなリリース
 
 ![bg brightness:0.6](https://user-images.githubusercontent.com/58712884/173769334-6ddc7144-189c-4d7b-a21b-6bf05172023d.jpg)
 
