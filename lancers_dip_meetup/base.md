@@ -57,6 +57,18 @@ _class: jukugo
 -->
 ---
 <style scoped>
+h1 {
+    font-size: 170px;
+    color: black;
+    left: 50px;
+    top: 250px;
+}
+</style>
+
+# とあるサービス
+
+---
+<style scoped>
 h2 {
     font-size: 114px;
     color: yellow;
