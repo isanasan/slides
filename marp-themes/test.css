@@ -46,6 +46,12 @@ section.jukugo h1 {
     padding: 40px;
 }
 
+section.number h1 {
+  color: black;
+  font-size: 620px;
+  padding: 40px;
+}
+
 section.tweet footer {
     font-family: "Corporate Logo Bold";
     text-align: center;

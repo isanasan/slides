@@ -159,10 +159,27 @@ h1 {
 # と言う訳で
 
 ---
+<style scoped>
+h1 {
+    color: black;
+    font-size: 160px;
+    padding: 40px;
+    top: 250px;
+    left: 40px;
+}
+</style>
 
 # モチベーション
 
-- 推測するな計測せよ(パフォーマンスチューニングの世界の言葉)
+---
+<style scoped>
+li {
+font-size: 50px;
+padding: 30px;
+}
+</style>
+
+- 推測するな計測せよ
 - 開発組織の生産性についても同じでは？
 - 生産性を定義してモニタリングしよう
 
@@ -187,12 +204,33 @@ h1 {
 
 # Stete of DevOpsとは
 
-- [DevOps Research and Assessment](https://www.devops-research.com/research.html)が毎年行っている調査
-- ソフトウェアの開発とデリバリを高速化するプラクティスは何なのか？
-- デリバリの速度はビジネスにどのような影響を与えるのか？
+<style scoped>
+li {
+font-size: 47px;
+padding: 17px;
+}
+</style>
 
-  ※ DORAは後にGoogleが買収した
-  ※※ 2021年のレポートも[公開](https://cloud.google.com/blog/ja/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)されている
+- [DevOps Research and Assessment](https://www.devops-research.com/research.html)による調査
+- デリバリの速度がビジネスに与える影響
+- 開発とデリバリを高速化する方法
+
+---
+<!--
+_class: jukugo
+-->
+# 余談
+
+---
+<style scoped>
+li {
+font-size: 50px;
+padding: 30px;
+}
+</style>
+
+- DORAは後にGoogleが買収した
+- 2021年のレポートも[公開](https://cloud.google.com/blog/ja/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)されている
 
 ---
 <!--
@@ -205,9 +243,16 @@ _class: yojijukugo
 
 # 調査結果
 
-- ソフトウェアデリバリーの尺度を定義し定量化 : **Four Keys**
-- デリバリーの速度と組織のパフォーマンスとの因果関係が判明
-- デリバリの速度を向上させるケイパビリティを特定
+<style scoped>
+li {
+font-size: 48px;
+padding: 17px;
+}
+</style>
+
+- ソフトウェアデリバリーの尺度を定義し定量化
+- デリバリーとビジネスの因果関係が判明
+- デリバリを向上させるケイパビリティを特定
 
 ---
 <style scoped>
@@ -302,12 +347,138 @@ h1 {
 
 # Four Keysとは
 
+<style scoped>
+p {
+  color: black;
+  font-size: 84px;
+  text-align: center;
+  margin: 10px;
+  top: 250px;
+}
+</style>
+
 デリバリのパフォーマンスを測定する4つの尺度
 
-- デプロイ頻度 : コードの変更を本番環境に適応して稼動させる頻度
-- リードタイム : コードのコミットから本番稼動までの所要時間
-- MTTR : インシデント発生から復旧にかかる平均時間
-- 変更失敗率 : 不具合が発生するリリースの確率
+---
+<!--
+_class: number
+-->
+
+# (1)
+
+---
+<style scoped>
+h1 {
+  color: black;
+  font-size: 200px;
+  top: 230px;
+  left: 40px;
+}
+</style>
+
+# デプロイ頻度
+
+---
+<style scoped>
+p {
+  color: black;
+  font-size: 120px;
+  text-align: center;
+}
+</style>
+
+コードの変更を
+本番環境に適応して
+稼動させる頻度
+
+---
+<!--
+_class: number
+-->
+
+# (2)
+
+---
+<style scoped>
+h1 {
+  color: black;
+  font-size: 200px;
+  top: 230px;
+  left: 40px;
+}
+</style>
+
+# リードタイム
+
+---
+<style scoped>
+p {
+  color: black;
+  font-size: 112px;
+  text-align: center;
+}
+</style>
+
+コードのコミットから
+本番稼動までの
+所要時間
+
+---
+<!--
+_class: number
+-->
+
+# (3)
+
+---
+<!--
+_class: yojijukugo
+-->
+
+# MTTR
+
+---
+<style scoped>
+p {
+  color: black;
+  font-size: 112px;
+  text-align: center;
+}
+</style>
+
+インシデント発生から
+復旧にかかる平均時間
+
+---
+<!--
+_class: number
+-->
+
+# (4)
+
+---
+<style scoped>
+h1 {
+  color: black;
+  font-size: 240px;
+  top: 230px;
+  left: 40px;
+}
+</style>
+
+# 変更失敗率
+
+---
+<style scoped>
+p {
+  color: black;
+  font-size: 140px;
+  text-align: center;
+}
+</style>
+
+不具合が発生する
+リリースの確率
 
 ---
 
@@ -344,6 +515,13 @@ table td {
 ---
 
 # 組織のパフォーマンスとは
+
+<style scoped>
+li {
+font-size: 48px;
+padding: 17px;
+}
+</style>
 
 - 収益性
 - 市場占有率
@@ -478,14 +656,14 @@ h1 {
 <style scoped>
 h1 {
   color: black;
-  font-size: 68px;
+  font-size: 66px;
   position: absolute;
   top: 330px;
   left: 40px;
 }
 </style>
 
-# Q: 全てのPRを同じ土俵で評価するの？
+# Q: 全ての作業を同じ土俵で評価するの？
 
 ---
 <style scoped>
@@ -504,9 +682,16 @@ h1 {
 
 # A: 結論YES
 
-- デリバリのパフォーマンスは組織のパフォーマンスと因果関係がある
+<style scoped>
+li {
+font-size: 44px;
+padding: 17px;
+}
+</style>
+
+- デリバリは組織のパフォーマンスと因果関係がある
 - 測定しているのはデリバリ、つまり開発の流量
-- PRのサイズによらずスムーズにフローが流れているかが重要な観点
+- スムーズにフローが流れているかが重要な観点
 
 ---
 <style scoped>
@@ -560,9 +745,16 @@ h1 {
 
 # A: 使わない方が良いと思う
 
+<style scoped>
+li {
+font-size: 48px;
+padding: 17px;
+}
+</style>
+
 - Four Keysはデリバリの指標
 - チームの評価までが最小単位
-- 使えるとしたらデリバリプロセスを1人で全て担当しているケース
+- 使えるとしたら一人チームの場合
 
 ---
 
