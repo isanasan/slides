@@ -136,7 +136,7 @@ ul {
 
 ![bg brightness:0.6](https://user-images.githubusercontent.com/58712884/173771682-83ba9c8b-6451-46b3-834c-c5d753a3b1be.jpg)
 
-- 今動いているものを直す必用ある？
+- 今動いているものを直す必要ある？
 - 効果測定どうやんの？
 - 費用対効果はどれくらい？
 
