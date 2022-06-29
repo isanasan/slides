@@ -340,8 +340,9 @@ h1 {
   color: black;
   font-size: 220px;
   text-align: center;
-  margin: 10px;
+  position: absolute;
   top: 250px;
+  left: 60px;
 }
 </style>
 

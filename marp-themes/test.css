@@ -49,6 +49,7 @@ section.jukugo h1 {
 section.number h1 {
   color: black;
   font-size: 620px;
+  position: absolute;
   padding: 40px;
 }
 
