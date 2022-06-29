@@ -14,16 +14,6 @@ State of DevOpsとFour Keysとは
 
 ---
 
-# もくじ
-
-1. 課題
-2. モチベーション
-3. State of DevOpsの紹介
-4. ケイパビリティの紹介
-5. よくある疑問点
-
----
-
 # 自己紹介
 <!--
 _class: yojijukugo
@@ -48,6 +38,20 @@ class: slides
 ![width:50px](https://user-images.githubusercontent.com/58712884/174749360-e1b1e941-8d14-4eeb-9ad9-610c12ff3176.png) @isanasan
 
 ![width:50px](https://user-images.githubusercontent.com/58712884/174750050-566537de-fabe-4a04-8b47-c14fd6b2dcae.png) @isana
+
+---
+
+# 本題
+<!--
+_class: jukugo
+-->
+
+---
+
+# その前に
+<!--
+_class: yojijukugo
+-->
 
 ---
 
@@ -505,12 +509,12 @@ table td {
 }
 </style>
 
-| metric | elite | high | middle | low |
-|---|---|---|---|---|
+| metric       | elite                 | high             | middle              | low            |
+| ------------ | --------------------- | ---------------- | ------------------- | -------------- |
 | デプロイ頻度 | オンデマンドに1日数回 | 1週間から月に1回 | 1ヶ月から6ヶ月に1回 | 6ヶ月に1回未満 |
-| リードタイム | 1時間以内 | 1日から1週間 | 1ヶ月から6ヶ月 | 6ヶ月以上 |
-| MTTR | 1時間以内 | １日以内 | 1日から1週間 | 6ヶ月以上 |
-| 変更失敗率  | 0~15% | 16%-30% | 16%-30% | 16%-30% |
+| リードタイム | 1時間以内             | 1日から1週間     | 1ヶ月から6ヶ月      | 6ヶ月以上      |
+| MTTR         | 1時間以内             | １日以内         | 1日から1週間        | 6ヶ月以上      |
+| 変更失敗率   | 0~15%                 | 16%-30%          | 16%-30%             | 16%-30%        |
 
 ---
 
@@ -552,8 +556,15 @@ Four Keysの改善効果が高いことが特定されている組織の能力
 
 # ケイパビリティとは
 
+<style scoped>
+li {
+font-size: 48px;
+padding: 17px;
+}
+</style>
+
 - [Google Cloud](https://cloud.google.com/architecture/devops/capabilities?hl=ja)に詳しいドキュメントがある
-- 実際の改善活動はケイパビリティを実装する形で進めることになる
+- ケイパビリティを実装する形で改善していく
 - 日々更新されている
 
 ---
@@ -755,6 +766,20 @@ padding: 17px;
 - Four Keysはデリバリの指標
 - チームの評価までが最小単位
 - 使えるとしたら一人チームの場合
+
+---
+
+# まとめ
+<style scoped>
+li {
+font-size: 48px;
+padding: 17px;
+}
+</style>
+
+- Four Keysを測定しよう
+- ケイパビリティを実装しよう
+- 改善効果を測定してPDCAを回そう
 
 ---
 
