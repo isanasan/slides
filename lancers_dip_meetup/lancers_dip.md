@@ -771,6 +771,7 @@ padding: 17px;
 ---
 
 # まとめ
+
 <style scoped>
 li {
 font-size: 48px;
