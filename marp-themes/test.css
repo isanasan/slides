@@ -46,11 +46,18 @@ section.jukugo h1 {
     padding: 40px;
 }
 
+section.sanmoji h1 {
+    color: black;
+    font-size: 330px;
+    text-align: center;
+    padding: 60px;
+}
+      
 section.number h1 {
-  color: black;
-  font-size: 620px;
-  position: absolute;
-  padding: 40px;
+    color: black;
+    font-size: 620px;
+    position: absolute;
+    padding: 40px;
 }
 
 section.tweet footer {
