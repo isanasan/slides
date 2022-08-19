@@ -43,10 +43,10 @@ class: slides
 <style scoped>
 h1 {
     color: black;
-    font-size: 63px;
+    font-size: 72px;
     padding: 40px;
-    top: 250px;
-    left: 40px;
+    top: 300px;
+    left: 26px;
 }
 </style>
 
@@ -56,7 +56,7 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 86px;
+    font-size: 102px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -77,18 +77,6 @@ h1 {
 </style>
 
 # PHPer Kaigi 2022
-
----
-<!--
-_footer: "https://fortee.jp/phperkaigi-2022/proposal/38060a2f-cef3-438a-822a-044de1799bc2"
--->
-<style scoped>
-footer {
-  left: 250px;
-}
-</style>
-
-![](https://fortee.jp/phperkaigi-2022/proposal/og-image/38060a2f-cef3-438a-822a-044de1799bc2.png)
 
 ---
 <!--
@@ -131,10 +119,10 @@ footer {
 <style scoped>
 h1 {
     color: black;
-    font-size: 54px;
+    font-size: 61px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 25px;
 }
 </style>
 
@@ -144,7 +132,7 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 86px;
+    font-size: 102px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -219,7 +207,7 @@ footer {
 <style scoped>
 h1 {
     color: black;
-    font-size: 140px;
+    font-size: 145px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -294,10 +282,10 @@ table td {
 <style scoped>
 h1 {
     color: black;
-    font-size: 57px;
+    font-size: 65px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
@@ -394,7 +382,7 @@ li {
 <style scoped>
 h1 {
     color: black;
-    font-size: 93px;
+    font-size: 118px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -407,7 +395,7 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 93px;
+    font-size: 95px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -439,7 +427,7 @@ _class: yojijukugo
 <style scoped>
 h1 {
     color: black;
-    font-size: 110px;
+    font-size: 135px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -452,7 +440,7 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 66px;
+    font-size: 78px;
     padding: 40px;
     top: 250px;
     left: 40px;
@@ -483,10 +471,10 @@ PHPに型定義(静的解析)をする理由
 <style scoped>
 h1 {
     color: black;
-    font-size: 240px;
+    font-size: 275px;
     padding: 40px;
-    top: 250px;
-    left: 40px;
+    top: 150px;
+    left: 20px;
 }
 </style>
 
@@ -538,15 +526,16 @@ li {
 - コードを実行せずに問題点等を検出すること
 - コードを実行しないため高速
 - ツールを導入するだけで実行できる
+- 型情報を扱うものについて話します
 
 ---
 <style scoped>
 h1 {
     color: black;
-    font-size: 100px;
+    font-size: 149px;
     padding: 40px;
-    top: 250px;
-    left: 40px;
+    top: 230px;
+    left: 20px;
 }
 </style>
 
@@ -571,10 +560,10 @@ footer {
 <style scoped>
 h1 {
     color: black;
-    font-size: 110px;
+    font-size: 141px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
@@ -600,6 +589,7 @@ li {
 - コードを実行せずに問題点等を検出すること
 - コードを実行しないため高速
 - ツールを導入するだけで実行できる
+- 型情報を扱うものについて話します
 
 ---
 <style scoped>
@@ -619,10 +609,10 @@ li {
 <style scoped>
 h1 {
     color: black;
-    font-size: 110px;
+    font-size: 145px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
@@ -632,10 +622,10 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 66px;
+    font-size: 90px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
@@ -661,10 +651,10 @@ li {
 <style scoped>
 h1 {
     color: black;
-    font-size: 100px;
+    font-size: 137px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
@@ -674,27 +664,25 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 120px;
+    font-size: 139px;
     padding: 40px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
-# メンテナンス性とは
+# メンテナンス性 is 何
 
 ---
 <style scoped>
 h2 {
     color: black;
-    font-size: 80px;
-    padding: 40px;
+    font-size: 100px;
     top: 250px;
-    left: 40px;
 }
 </style>
 
-# メンテナンス性とは
+# メンテナンス性 is 何
 
 ## SQuaRE(JIS X 25010)
 
@@ -761,11 +749,8 @@ h1 {
 ---
 <style scoped>
 h2 {
-    color: black;
-    font-size: 105px;
-    padding: 40px;
+    font-size: 116px;
     top: 250px;
-    left: 40px;
 }
 </style>
 
@@ -796,14 +781,27 @@ h1 {
 <style scoped>
 h1 {
     color: black;
-    font-size: 140px;
-    padding: 40px;
+    font-size: 209px;
     top: 250px;
-    left: 40px;
+    left: 20px;
 }
 </style>
 
 # リファクタリング
+
+---
+<style scoped>
+p {
+    color: black;
+    font-size: 140px;
+    top: 250px;
+    left: 20px;
+}
+</style>
+
+# リファクタリング
+
+sedコマンドはつらい
 
 ---
 <style scoped>
@@ -822,8 +820,7 @@ li {
 <style scoped>
 h1 {
     color: black;
-    font-size: 160px;
-    padding: 40px;
+    font-size: 180px;
     top: 250px;
     left: 40px;
 }

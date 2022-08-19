@@ -8,25 +8,25 @@ img[src*='#center'] {
 }
 
 section {
-    font-family: "Corporate Logo Bold";
+    font-family: "コーポレート・ロゴ ver2";
     font-size: 32px;
 }
 
 section.title h1 {
     color: black;
-    font-family: "Corporate Logo Bold";
+    font-family: "コーポレート・ロゴ ver2";
     font-size: 80px;
 }
 
 section.title {
-    font-family: "Corporate Logo Bold";
+    font-family: "コーポレート・ロゴ ver2";
     font-size: 70px;
     text-align: center;
     padding: 40px;
 }
 
 section.slides h1 {
-    font-family: "Corporate Logo Bold";
+    font-family: "コーポレート・ロゴ ver2";
     font-size: 42px;
     position: absolute;
     left: 50px; top: 70px;
@@ -61,7 +61,7 @@ section.number h1 {
 }
 
 section.tweet footer {
-    font-family: "Corporate Logo Bold";
+    font-family: "コーポレート・ロゴ ver2";
     text-align: center;
     left: 250px;
 }
