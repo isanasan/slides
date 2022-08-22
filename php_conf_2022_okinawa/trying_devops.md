@@ -96,7 +96,7 @@ _class: yojijukugo
 
 ---
 
-![PHP カンファレンス沖縄2022_告知スライド pptx pptx](https://user-images.githubusercontent.com/58712884/185629690-0673e3d7-a5af-4e0f-b003-fb2ab7d18f5e.png)
+![PHP カンファレンス沖縄2022_告知スライド pptx pptx](https://user-images.githubusercontent.com/58712884/185841885-b778b487-05cb-4900-be42-2c11b9b7094f.png)
 
 ---
 
