@@ -882,6 +882,6 @@ li {
 
 [PHPStanで始めるPHPのための静的解析](https://engineering.mercari.com/blog/entry/phpstan/)
 
-[エディタ中中なPHP開発環環の現在](https://www.youtube.com/watch?v=LA6ZH_GdzNI&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=8)
+[エディタ中立なPHP開発環環の現在](https://www.youtube.com/watch?v=LA6ZH_GdzNI&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=8)
 
 [アジリティを支える品質特性](https://speakerdeck.com/twada/agility-and-quality-characteristics-developers-summit-2021-summer)
