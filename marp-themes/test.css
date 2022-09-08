@@ -5,6 +5,7 @@
 img[src*='#center'] { 
     display: block;
     margin: auto;
+    margin-top: 8%;
 }
 
 section {
@@ -55,9 +56,8 @@ section.sanmoji h1 {
       
 section.number h1 {
     color: black;
-    font-size: 620px;
-    position: absolute;
-    padding: 40px;
+    font-size: 530px;
+    text-align: center;
 }
 
 section.tweet footer {
