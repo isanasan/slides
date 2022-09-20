@@ -858,6 +858,19 @@ footer {
 | BS（貸借対照表）             | デプロイ頻度, 変更失敗率 |
 
 ---
+<style scoped>
+li {
+  font-size: 40px;
+  padding: 5px;
+}
+</style>
+
+# 経営層を巻き込む
+
+- 目標設定する(デプロイ頻度昨年度比2倍)
+- 経営層が参加するMTGで進捗報告
+
+---
 <!--
 _footer: "[「LeanとDevOpsの科学」を実践して LancersのDevOps的取り組みとこれから](https://speakerdeck.com/isanasan/lancers-devops-efforts-and-the-future)"
 -->
