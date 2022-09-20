@@ -680,6 +680,40 @@ li {
 - [isanasan/dmps](https://github.com/isanasan/dmps)
 
 ---
+
+# システムを自前で構築する
+
+![bg width:760px](../php_conf_2022_okinawa/diagram.drawio.svg)
+
+---
+<!--
+_footer: "https://developer.hatenastaff.com/entry/2021/03/04/093000"
+-->
+<style scoped>
+footer {
+  left: 400px;
+}
+</style>
+
+# システムを自前で構築する
+
+![bg width:60%](https://user-images.githubusercontent.com/58712884/185623882-0f014bf4-3c2f-4800-98c3-ad3e75fc3bb9.png)
+
+---
+<!--
+_footer: "https://github.com/isanasan/pull-request-analysis-sample"
+-->
+<style scoped>
+footer {
+  left: 350px;
+}
+</style>
+
+# システムを自前で構築する
+
+![bg width:800px](https://user-images.githubusercontent.com/58712884/185732166-d32e9ef2-a901-4ea8-9a84-9ebe517dfee3.png)
+
+---
 <style scoped>
 li {
   font-size: 50px;
@@ -822,6 +856,7 @@ footer {
 | ---------------------------- | ---------------------------- |
 | PL（損益計算書）             | リードタイム, MTTR |
 | BS（貸借対照表）             | デプロイ頻度, 変更失敗率 |
+
 ---
 <!--
 _footer: "[「LeanとDevOpsの科学」を実践して LancersのDevOps的取り組みとこれから](https://speakerdeck.com/isanasan/lancers-devops-efforts-and-the-future)"
