@@ -53,6 +53,12 @@ section.sanmoji h1 {
     text-align: center;
     padding: 60px;
 }
+
+section.gomoji h1 {
+    color: black;
+    font-size: 215px;
+    padding: 5px;
+}
       
 section.number h1 {
     color: black;

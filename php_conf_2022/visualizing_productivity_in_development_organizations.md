@@ -732,9 +732,10 @@ li {
 _footer: "[SREで開発を加速させる class SRE implements DevOps (WEB+DB PRESS Vol.129 株式会社技術評論社)](https://gihyo.jp/magazine/wdpress/archive/2022/vol129)"
 -->
 <style scoped>
-li {
-  font-size: 40px;
-  padding: 5px;
+p {
+  text-align: center;
+  font-size: 65px;
+  padding: 10px;
 }
 footer {
   left: 230px;
@@ -743,20 +744,17 @@ footer {
 
 # SREの指標と関連付けて運用する
 
-- エラーバジェット(1 - SLI)
-- ウィンドウサイズ(計測期間の単位)
-- 変更起因障害の割合(障害全体から通信障害とかを除いたもの)
-
->エラーバジェット × ウィンドウサイズ × 変更起因障害の割合
-= 変更起因障害の許容時間
+デプロイ頻度 × 変更失敗率 × MTTR
+= 変更起因障害の予想時間
 
 ---
 <!--
 _footer: "[SREで開発を加速させる class SRE implements DevOps (WEB+DB PRESS Vol.129 株式会社技術評論社)](https://gihyo.jp/magazine/wdpress/archive/2022/vol129)"
 -->
 <style scoped>
-li {
-  font-size: 40px;
+p {
+  text-align: center;
+  font-size: 45px;
   padding: 5px;
 }
 footer {
@@ -766,12 +764,8 @@ footer {
 
 # SREの指標と関連付けて運用する
 
-- デプロイ頻度
-- 変更失敗率
-- MTTR
-
->デプロイ頻度 × 変更失敗率 × MTTR(平均修復時間)
-= 変更起因障害の予想時間
+エラーバジェット × ウィンドウサイズ × 変更起因障害の割合
+= 変更起因障害の許容時間
 
 ---
 <!--
@@ -789,7 +783,27 @@ footer {
 
 # SREの指標と関連付けて運用する
 
-許容時間と予想時間を比較すればどこを改善すればよいか分かる
+許容時間と予想時間を比較すれば改善のための議論ができる
+
+---
+<!--
+_class: gomoji
+-->
+# 財務諸表🤔
+
+---
+<!--
+_footer: "https://twitter.com/yamotty3/status/1342258793644617730?s=20&t=fHD6r1cAhRzfJf9De3-8jA"
+-->
+<style scoped>
+footer {
+  left: 230px;
+}
+</style>
+
+# 財務諸表と関連付けて運用する
+
+![width:840px](https://user-images.githubusercontent.com/58712884/191947289-9811d9e4-b239-45e2-abaa-3297a0ff783c.png#center)
 
 ---
 <!--
@@ -1002,18 +1016,23 @@ _footer: "https://www.devops-research.com/research.html"
 ![width:600px](https://user-images.githubusercontent.com/58712884/189790336-9bac6a1b-13eb-4f0c-b599-b6246120fe5a.png#center)
 
 ---
+<!--
+_footer: "[ファクトから始める改善アプローチ 〜「LeanとDevOpsの科学」を実践して〜](https://speakerdeck.com/tyankamo/huakutokarashi-merugai-shan-apuroti-leantodevopsfalseke-xue-woshi-jian-site)"
+-->
 <style scoped>
+footer {
+  left: 370px;
+}
 li {
-font-size: 48px;
-padding: 17px;
+  font-size: 48px;
+  padding: 17px;
 }
 </style>
 
 # ケイパビリティについても現状を可視化し実装する
 
 - ケイパビリティは定量的だったり定性的だったりする
-- サーベイを実施して可視化するアプローチがある
-- [ファクトから始める改善アプローチ 〜「LeanとDevOpsの科学」を実践して〜](https://speakerdeck.com/tyankamo/huakutokarashi-merugai-shan-apuroti-leantodevopsfalseke-xue-woshi-jian-site)
+- サーベイを実施することでケイパビリティを可視化する
 
 ---
 <style scoped>
