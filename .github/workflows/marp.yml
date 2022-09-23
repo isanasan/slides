@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v6
+      - name: get diff
+        uses: technote-space/get-diff-action@v6
         with:
           PATTERNS: |
             **/*.md
