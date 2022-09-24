@@ -1,0 +1,26 @@
+name: marp-GitHub-actions
+on: [push]
+jobs:
+  export_marp_slide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: get diff
+        uses: technote-space/get-diff-action@v6
+        with:
+          PATTERNS: |
+            **/*.md
+      - name: export pdf
+        run: docker run --rm -u root --init -v "$(pwd):/home/marp/app/" 
+              -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli ${{ env.GIT_DIFF }}
+              --pdf
+      - name: export pptx
+        run: docker run --rm -u root --init -v "$(pwd):/home/marp/app/" 
+              -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli ${{ env.GIT_DIFF }}
+              --pptx
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output_slide
+          path: |
+            **/*.pdf
+            **/*.pptx
